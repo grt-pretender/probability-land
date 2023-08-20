@@ -93,9 +93,8 @@ res8_1 = get_factorial(4)
 print("How can 4 boys and 4 girls be divided into pairs? {}".format(res8_1)) # 24
 print("") 
 
-res8_2 = "2 * " + str(res8_1) + " " + str(res8_1)
-res8_2 = 2 * res8_1 * res8_1  # of order is important
-print("How can they be aligned, alternating by gender: {}".format(res8_2)) # 1152
+res8_2 = 2 * res8_1 * res8_1  # if order is important
+print("How can they be aligned, alternating by gender? {}".format(res8_2)) # 1152
 print("")
 print("") 
 
