@@ -112,7 +112,7 @@ print("The probability: {}".format(res12_1)) # 2/3
 print("")
 
 res12_2 = get_simple_probability(get_factorial(4), get_factorial(6)) 
-print("What`s the probability that first 2 keys you tried would be enough?:")
+print("What`s the probability of the first 2 keys being enough?:")
 print("Result: {}".format(res12_2)) # 4!/6! = 0.003
 print("")
 print("") 
